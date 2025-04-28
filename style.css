@@ -1,0 +1,188 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.title-div {
+  padding-top: 18rem;
+  padding-left: 1rem;
+  padding-right: 15rem;
+}
+
+.phone-div {
+  padding-top: 6rem;
+  padding-left: 2rem;
+}
+
+.download-buttons-div > .btn-primary {
+  margin: 10px;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  font-size: 1.3rem;
+  padding: 0.5rem 1.5rem;
+  margin-right: 10px;
+}
+
+.download-buttons-div > .btn-primary:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.download-buttons-div > .btn-primary:active {
+  background-color: rgb(213, 213, 213);
+  color: black;
+  border: 1px solid white;
+}
+
+.download-buttons-div > .btn-secondary {
+  margin: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.3rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.download-buttons-div > .btn-secondary:hover {
+  background-color: rgb(234, 233, 233);
+  color: black;
+  border: 1px solid white;
+}
+
+.download-buttons-div > .btn-secondary:active {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+  #title h1 {
+    margin-left: 1rem;
+  }
+}
+
+#features svg {
+  height: 2rem;
+}
+
+#features > .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.icon-round-container {
+  background-color: rgb(231, 234, 234);
+  border-radius: 15px;
+  margin: 0px;
+    margin-right: 10px;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#testimonial {
+  text-align: center;
+  background-color: rgb(248, 248, 248);
+}
+
+#testimonial > .container {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#testimonial > .container > img {
+  margin-top: 40px;
+  border-radius: 50%;
+}
+
+#testimonial p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  font-size: 1.25rem;
+  margin-bottom: 50px;
+}
+
+#testimonial > .container > div > div > img {
+  margin-bottom: 10px;
+}
+
+#pricing .btn-outline-primary {
+  background-color: white;
+  border: 1px solid rgb(33, 37, 41);
+  color: rgb(33, 37, 41);
+}
+
+#pricing .btn-outline-primary:hover {
+  background-color: rgb(33, 37, 41);
+  color: white;
+}
+
+#pricing .btn-outline-primary:active {
+  background-color: rgb(26, 30, 33);
+}
+
+#pricing .btn-primary {
+  background-color: rgb(33, 37, 41);
+  border: 1px solid white;
+  color: white;
+}
+
+#pricing .btn-primary:hover {
+  background-color: rgb(62, 62, 62);
+}
+
+#pricing .btn-primary:active {
+  background-color: rgb(78, 78, 78);
+}
+
+#pricing > .container > .row > .col > .border-primary > .card-header {
+  background-color: rgb(33, 37, 41) !important;
+}
+
+.border-primary {
+  border-color: rgb(33, 37, 41) !important;
+}
+
+#footer ul {
+  border-color: rgb(33, 37, 41) !important;
+}
